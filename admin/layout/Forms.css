@@ -1,0 +1,77 @@
+.largeformbutton {
+	FONT-SIZE: 11px; WIDTH: 150px; COLOR: black; FONT-FAMILY: arial
+}
+.formbutton {
+	FONT-SIZE: 11px; FONT-FAMILY: arial
+}
+/*
+.smallbutton {
+	FONT-SIZE: 11px; FONT-FAMILY: arial; background-color: #FFFFFF; border: 1px solid #CCE6B3; COLOR: #333333
+}	
+*/
+.smallbutton {
+	FONT-SIZE: 11px; FONT-FAMILY: arial
+}	
+.smallbutton2 {
+	FONT-SIZE: 9px; FONT-FAMILY: arial
+}	
+.field {
+	padding:2px; MARGIN-TOP: 3px; FONT-SIZE: 11px; COLOR: #333333; MARGIN-RIGHT: 5px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; border: 1px solid #999999; width:400px; background: #ffffff; float: left; clear: both;
+}
+.field-display {
+	padding:5px; MARGIN-TOP: 3px; FONT-SIZE: 11px; COLOR: #333333; MARGIN-RIGHT: 5px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; width:97%; background: #fefefe; float: left; line-height: 1.2em;
+}
+.field-multiselect {
+	height:77px; overflow-x: hidden; overflow-y: scroll; text-align:left; width: 400px;
+}
+.field2 {
+	padding:2px; MARGIN-TOP: 3px; FONT-SIZE: 9px; COLOR: #333333; MARGIN-RIGHT: 5px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; border: 1px solid #999999; background: #ffffff; float: left; clear: both;
+}
+.input-error {
+	padding:2px; MARGIN-TOP: 3px; FONT-SIZE: 11px; COLOR: #333333; MARGIN-RIGHT: 5px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; border: 1px solid #ff7777; width:400px; background: #ffffff; float: left; clear: both;
+}
+.input-ok {
+	padding:2px; MARGIN-TOP: 3px; FONT-SIZE: 11px; COLOR: #333333; MARGIN-RIGHT: 5px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; border: 1px solid #77ff77; width:400px; background: #ffffff; float: left; clear: both;
+}
+.datefield {
+	padding:2px; MARGIN-TOP: 3px; FONT-SIZE: 11px; COLOR: #333333; MARGIN-RIGHT: 5px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; border: 1px solid #999999; width:150px; background: #ffffff; float: left; clear: both;
+}
+.datefield-error {
+	padding:2px; MARGIN-TOP: 3px; FONT-SIZE: 11px; COLOR: #333333; MARGIN-RIGHT: 5px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; border: 1px solid #ff7777; width:150px; background: #ffffff; float: left; clear: both;
+}
+.searchfield {
+	padding:2px; MARGIN-TOP: 3px; FONT-SIZE: 11px; COLOR: #333333; MARGIN-RIGHT: 5px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; border: 1px solid #999999; width:150px; background: #ffffff; float: left; clear: both; text-align:left;
+}
+.searchfield-ok {
+	padding:2px; MARGIN-TOP: 3px; FONT-SIZE: 11px; COLOR: #333333; MARGIN-RIGHT: 5px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; border: 1px solid #99ff99; width:150px; background: #ffffff; float: left; clear: both; text-align:left;
+}
+.searchfieldwrapper {
+	position:relative; width:170px;	text-align:left; overflow-y:scroll; overflow-x:hidden; height:77px; 
+}
+.searchfielddisabled {
+	position:absolute; top: 0px; right: 0px; bottom: 0px; left: 0px; z-index:100; background-image:url(../images/stripes.png);
+  opacity:0.6;
+  filter:alpha(opacity=60); /* For IE8 and earlier */
+}
+.red,.error {
+	color: #ff7777;
+}
+.ok {
+	/*
+	color: #CCE6B3;
+	*/
+	color: #6C6;
+}
+
+select option {
+	background-color:transparent;
+}
+select option:hover {
+	background-color:#ebebeb;
+}
+[selected] {
+	color:#900
+}
+.disabled {
+	color: #aaaaaa;
+}

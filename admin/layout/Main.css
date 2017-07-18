@@ -1,0 +1,258 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #666666;
+	background-color: #ffffff;
+/*
+	background-image: url("bg.gif");
+*/
+	}
+	
+html,body,form,div#Main {
+	/*height: 100%;*/
+	}
+	
+img,form,label,h1,h2,h3,h4,h5,h6 {
+	margin: 0;
+	padding: 0;
+	border-width: 0;
+	}
+	
+div.Clear {
+	clear: both;
+	font-size: 0;
+	line-height: 0;
+	height: 0;
+	}
+	
+.Size10 {
+	font-size: 10px;
+	}
+	
+table {
+	border-width: 0;
+	border-spacing: 0;
+	}
+
+table tr td {
+	border-width: 0;
+	font-size: 11px;
+	}
+	
+a:link, a:visited, a:hover, a:active {
+	color: #666666;
+	}
+	
+a.NoLine:link, a.NoLine:visited, a.NoLine:active {
+	text-decoration: none;
+	}
+	
+a.NoLine:hover {
+	text-decoration: underline;
+	}
+	
+/* Text Elements */
+h6 {
+	font-size: 11px;
+	}
+	
+div#Main {
+	width: 100%;
+	background-color: #ffffff;
+	}
+	
+div#Main div#Head div#Logo {
+	background-color: #aaaaaa;
+	padding: 0px;
+	}
+	
+div#Main div#Head div#Logo div#topButtons {
+	float: right;
+	padding-top: 15px;
+	color: #eeeeee;
+	}
+
+div#Main div#Head div#Logo div#topButtons a {
+	color: #ffffff;
+	}
+	
+div#Main div#Head div#Logo {
+	background-image:url(track_header_bg2.png)
+	}
+	
+div#Main div#Head div#Nav {
+	background-color: #00508f;
+	padding: 0px 5px 5px 5px;
+	border-bottom: 1px solid #666666;
+	height: 21px;
+	}
+	
+div#Main div#Head a,
+div#Main div#Head a:link,
+div#Main div#Head a:visited,
+div#Main div#Head a:active
+ {
+	color: #444444;
+	text-decoration: none;
+	}
+	
+div#Main div#Head a:hover {
+	color: #000000;
+	text-decoration: underline;
+	}
+	
+div#Head div#Nav a.Button:link,
+div#Head div#Nav a.Button:visited,
+div#Head div#Nav a.Button:hover,
+div#Head div#Nav a.Button:active {
+	text-align: center;
+	padding-top: 3px;
+	margin-right: 5px;
+	background-image: url("Button2.gif");
+	width: 69px;
+	height: 17px;
+	text-decoration: none;
+	display: block;
+	float: left;
+	color: #666666;
+	}
+	
+div#Head div#Nav a.Button:hover {
+	background-position: 0 -20px;
+	}
+
+div#Head div#Nav a.Button2:link,
+div#Head div#Nav a.Button2:visited,
+div#Head div#Nav a.Button2:hover,
+div#Head div#Nav a.Button2:active {
+	text-align: center;
+	padding-top: 3px;
+	margin-right: 5px;
+	background-image: url("Button2.gif");
+	width: 69px;
+	height: 17px;
+	text-decoration: none;
+	display: block;
+	float: left;
+	color: #666666;
+	background-position: 0 -20px;
+	}
+
+div#Head div#Nav a.Button2:link {
+	color: #00508f;
+	color: #222222;
+	}
+	
+div#Head div#Nav a.Button2:hover {
+	background-position: 0 -20px;
+	}
+
+div#Head div#Nav a.ButtonGreen:link,
+div#Head div#Nav a.ButtonGreen:visited,
+div#Head div#Nav a.ButtonGreen:hover,
+div#Head div#Nav a.ButtonGreen:active {
+	text-align: center;
+	padding-top: 3px;
+	margin-right: 5px;
+	background-image: url("ButtonGreen.gif");
+	width: 69px;
+	height: 17px;
+	text-decoration: none;
+	display: block;
+	float: left;
+	color: #666666;
+	}
+	
+div#Head div#Nav a.ButtonGreen:hover {
+	background-position: 0 -20px;
+	}	
+	
+div#Head div#Nav a.ButtonGreen2:link,
+div#Head div#Nav a.ButtonGreen2:visited,
+div#Head div#Nav a.ButtonGreen2:hover,
+div#Head div#Nav a.ButtonGreen2:active {
+	text-align: center;
+	padding-top: 3px;
+	margin-right: 5px;
+	background-image: url("ButtonGreen.gif");
+	width: 69px;
+	height: 17px;
+	text-decoration: none;
+	display: block;
+	float: left;
+	color: #666666;
+	background-position: 0 -20px;
+	}
+	
+div#Head div#Nav a.ButtonGreen2:hover {
+	background-position: 0 -20px;
+	}
+
+div#Main div#Content {
+	padding: 10px 10px 10px 130px;
+	position: relative;
+	}
+	
+div#Main div#Content .Box {
+	margin-bottom: 10px;
+	padding: 5px;
+	}
+	
+div#Main div#Content div#SectionNav {
+	background-color: #EEEEEE;
+	position: absolute;
+	width: 120px;
+	left: -130px;
+	voice-family: "\"}\""; 
+	voice-family: inherit;
+	left: 0;
+	top: 0;
+	_left: -180px;
+	/*height:100%;*/
+	padding-bottom: 5px;
+	}
+	
+div#Main div#Content div#SectionNav h1 {
+	font-size: 16px;
+	padding: 7px;
+	margin-bottom: 5px;
+	border-bottom: 1px solid #333333;
+	background-color: #E0E0E0;
+	}
+	
+div#Main div#Content div#SectionNav a:link,
+div#Main div#Content div#SectionNav a:visited,
+div#Main div#Content div#SectionNav a:hover,
+div#Main div#Content div#SectionNav a:active {
+	margin-left: 5px;
+	margin-right: 5px;
+	padding: 3px;
+	display: block;
+	text-decoration: none;
+	}
+	
+div#Main div#Content div#SectionNav a:hover,
+div#Main div#Content div#SectionNav a:active {
+	border: 1px solid #CCCCCC;
+	padding: 2px;
+	}
+	
+div#main div#Content div#SectionNav a:active {
+	background-color: #E3E3E3;
+	}
+	
+p.debugger {
+	margin: 0px 0px 0px 130px;
+	width: 1113px;
+	padding: 5px;
+}
+p.debugger.oddColor {
+	background-color: #666;
+	color: #EEE;
+}
+p.debugger.evenColor {
+	background-color: #EEE;
+	color: #666;
+}

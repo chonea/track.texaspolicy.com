@@ -1,0 +1,166 @@
+/* Text elements */
+h5 {
+	font-size: 12px;
+	font-weight: bold;
+	text-decoration: none;
+	}
+
+/* Boxes */
+.BoxSearch {
+	border: 1px solid #6392ba;
+	background-color: #e8f0f6;
+	padding: 4px;
+	margin-bottom: 10px;
+	}
+	
+.AdminPending {
+	border: 1px solid #6392ba;
+	background-color: #e8f0f6;
+	padding: 4px;
+	margin-bottom: 10px;
+	width: 100%;
+	}
+
+.AdminPending tr.Odd2{
+	background-color: #ffffff;
+	}		
+	
+table.Contacts { /* Green */
+	border: 1px solid #6392ba;
+	background-color: #eef6fb;
+	width: 100%;
+	}
+	
+table.Contacts tr td {
+	border-bottom: 1px solid #6392ba;
+	padding: 5px;
+	line-height: 16px;
+	}
+table.Contacts tr td.table-status {
+	padding: 5px 0;
+	}
+
+
+table.Contacts tr.Odd { /* Alternating Row */
+	background-color: #e8f0f6;
+	}
+
+table.Contacts tr.Odd2 { /* Alternating Row */
+	background-color: #eaeaea;
+	}
+
+table.Contacts tr.disabled,
+table.Contacts tr.disabled a,
+table.Contacts tr.disabled a:hover {
+	color: #aaaaaa;
+	}
+
+table.Contacts tr.Header,
+table.BoxSearch tr.Header {
+	background-color: #c4d5e1;
+	}
+	
+table.Contacts tr.Header a,
+table.BoxSearch tr.Header a {
+	text-decoration: none;
+	font-weight: bold;
+	}
+	
+table.Contacts tr.Header a:hover, 
+table.BoxSearch tr.Header a:hover {
+	text-decoration: underline;
+	color: #444444;
+	}
+
+table.Contacts tr.Footer,
+div#SearchControl,
+div#SearchSaved {
+	background-color: #dbe8f2;
+	}
+	
+table.Contacts tr.Attention td.Attention { /* Place special emphasis on this row */
+	background-color: #e8f0f6;
+	/*border-bottom: 1px dotted #f00;
+	border-top: 1px dotted #f00;*/
+	}	
+	
+table.Contacts td.table-status {
+	width: 4px;
+	}	
+	
+table.Contacts td.table-status-overdue {
+	border-left: 4px solid #ca3c1a;
+	}	
+	
+table.Contacts td.table-status-due {
+	border-left: 4px solid #ffdb00;
+	}	
+	
+table.Contacts td.table-status-ok {
+	border-left: 4px solid #7dc07d;
+	}	
+	
+table.Contacts td.table-actions {
+	background: transparent url('../images/action_background_25.png') left top repeat;
+	min-width: 90px;
+	}	
+	
+table.Contacts input.action-checkbox {
+	display: inline-block;
+	width: 10px;
+	height: 12px;
+	padding: 0 !important;
+	margin: 5px 2px 0 !important;
+	}	
+	
+table.Contacts a.icon-link {
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	padding: 0 2px;
+	background: transparent center center no-repeat;
+	text-indent: -9999px;
+	}	
+table.Contacts a.icon-link.action-disabled,
+table.Contacts a.icon-link.action-disabled:hover {
+	pointer-events: none;
+	}	
+	
+table.Contacts a.icon-link.icon-edit {
+	background-image: url('../images/icon_edit2_static.png');
+	}	
+table.Contacts a.icon-link.icon-edit:hover {
+	background-image: url('../images/icon_edit2.png');
+	}	
+table.Contacts a.icon-link.icon-edit.action-disabled,
+table.Contacts a.icon-link.icon-edit.action-disabled:hover {
+	background-image: url('../images/icon_edit2_static_25.png');
+	}	
+	
+table.Contacts a.icon-link.icon-copy {
+	background-image: url('../images/icon_copy_static.png');
+	}		
+table.Contacts a.icon-link.icon-copy:hover {
+	background-image: url('../images/icon_copy.png');
+	}	
+table.Contacts a.icon-link.icon-copy.action-disabled,
+table.Contacts a.icon-link.icon-copy.action-disabled:hover {
+	background-image: url('../images/icon_copy_static_25.png');
+	}	
+	
+table.Contacts a.icon-link.icon-delete {
+	background-image: url('../images/icon_delete_static.png');
+	}		
+table.Contacts a.icon-link.icon-delete:hover {
+	background-image: url('../images/icon_delete.png');
+	}
+table.Contacts a.icon-link.icon-delete.action-disabled,
+table.Contacts a.icon-link.icon-delete.action-disabled:hover {
+	background-image: url('../images/icon_delete_static_25.png');
+	}	
+
+table.Notes { /* Red */
+	
+	}
+
+/* Result Boxes */
